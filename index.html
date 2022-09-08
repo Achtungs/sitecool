@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"src="Script.js"></script>
+
+</head>
+<body>
+<div class="sing-log-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-area">
+                    <div class="form-sing">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#login" aria-controls="Log In" role="tab" data-toggle="tab" onclick="CMB2()">Sign In</a></li>
+                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" onclick="CMB()">Sign Up</a></li>
+                        </ul>
+
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active form-are" id="login" style="display: block">
+                                <form action="">
+                                    <div class="form-bor">
+                                        <div class="form-input-group">
+                                            <label for="">Username</label>
+                                            <input type="text" name="username">
+                                        </div>
+
+                                        <div class="form-input-group">
+                                            <label for="">Password</label>
+                                            <input type="password" name="password">
+                                        </div>
+                                        <div class="form-input-checkbox">
+                                            <input type="checkbox" id="test1" />
+                                            <label for="test1">Keep me Signed in</label>
+                                        </div>
+                                        <div class="form-input-group">
+                                            <button>Sing in</button>
+                                        </div>
+                                    </div><a class="forgot-pass" href="" onclick="CMB()">Forgot Password?</a>
+                                </form>
+
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="profile" style="display: none">
+                                <form action="show_user.php" method="post">
+                                    <div class="form-bor">
+                                        <div class="form-input-group">
+                                            <label for="">Username</label>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input type="text" name="fst-username" placeholder="First Name">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" name="lst-username" placeholder="Last Name">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" name="username" placeholder="Nickname">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-input-group">
+                                            <label for="">Email</label>
+                                            <input type="text" name="email" placeholder="Email">
+                                            <input type="text" name="VK" placeholder="Vk">
+                                        </div>
+
+                                        <div class="form-input-group">
+                                            <label for="">Password</label>
+                                            <input type="password" name="password" placeholder="Password">
+                                            <input type="password" name="password2" placeholder="Confirm Password">
+                                        </div>
+
+
+                                        <div class="form-input-group">
+                                            <button>Sing Up</button>
+                                        </div>
+                                    </div>
+                                    <a class="forgot-pass" href="index.html" onclick="CMB2()">Already have an account? <strong>Sign in</strong> </a>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -152,3 +152,18 @@ body {
 .sing-log-wrap .form-input-group {
     margin-bottom: 17px;
 }
+input:invalid {
+    background: #fdd  !important; /* Красный цвет фона */
+}
+input:valid {
+    background: #dfd  !important; /* Зеленый цвет фона */
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.ImgSize {
+    width: 100%;
+}

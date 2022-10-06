@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e28059aa-3af7-422b-a4bb-5cac316501be" name="Changes" comment="" />
+    <list default="true" id="e28059aa-3af7-422b-a4bb-5cac316501be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app_config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_user2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testusername.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/show_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +27,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="mysite7.rus" id="9fa717fa-2273-4828-b7aa-3921d64919fd" name="mysite7" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\OpenServer\domains\4" selected_validation_type="LOCAL" web_path_to_validation_script="http://mysite7.rus:80" />
   <component name="ProjectId" id="2EOXCwm873k7YnnfAXP4kh3HSwc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,10 +57,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\4\" />
+      <recent name="C:\OpenServer\domains\4\path\" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="show_user" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="mysite7" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,11 +87,36 @@
       <updated>1662467481349</updated>
       <workItem from="1662467483384" duration="49000" />
       <workItem from="1662469144189" duration="963000" />
-      <workItem from="1662621363933" duration="6179000" />
+      <workItem from="1662621363933" duration="6231000" />
+      <workItem from="1662969568932" duration="4452000" />
+      <workItem from="1662977121919" duration="5274000" />
+      <workItem from="1663056555504" duration="4455000" />
+      <workItem from="1663069967239" duration="4404000" />
+      <workItem from="1663228629278" duration="4750000" />
+      <workItem from="1663243062849" duration="141000" />
+      <workItem from="1664184803015" duration="5557000" />
+      <workItem from="1664199758623" duration="3055000" />
+      <workItem from="1664452315083" duration="7157000" />
+      <workItem from="1664518429651" duration="2913000" />
+      <workItem from="1664526186470" duration="774000" />
+      <workItem from="1664777601473" duration="3705000" />
+      <workItem from="1664791698254" duration="644000" />
+      <workItem from="1665036999908" duration="4468000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
